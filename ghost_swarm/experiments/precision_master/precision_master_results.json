@@ -1,0 +1,77 @@
+{
+  "experiment": "precision_master",
+  "final_loss": 6.650746622085572,
+  "total_filtered": 250,
+  "history": [
+    {
+      "step": 1,
+      "avg_loss": 11.174503507614137,
+      "gradients_filtered": 25,
+      "samples": 50,
+      "time": 14.28625202178955
+    },
+    {
+      "step": 2,
+      "avg_loss": 7.300086965560913,
+      "gradients_filtered": 25,
+      "samples": 50,
+      "time": 24.894973039627075
+    },
+    {
+      "step": 3,
+      "avg_loss": 7.393979187011719,
+      "gradients_filtered": 25,
+      "samples": 50,
+      "time": 27.970831871032715
+    },
+    {
+      "step": 4,
+      "avg_loss": 7.651326360702515,
+      "gradients_filtered": 25,
+      "samples": 50,
+      "time": 16.163535118103027
+    },
+    {
+      "step": 5,
+      "avg_loss": 7.407294969558715,
+      "gradients_filtered": 25,
+      "samples": 50,
+      "time": 12.780534029006958
+    },
+    {
+      "step": 6,
+      "avg_loss": 7.031727867126465,
+      "gradients_filtered": 25,
+      "samples": 50,
+      "time": 13.249213933944702
+    },
+    {
+      "step": 7,
+      "avg_loss": 6.5618804359436025,
+      "gradients_filtered": 25,
+      "samples": 50,
+      "time": 15.262134075164795
+    },
+    {
+      "step": 8,
+      "avg_loss": 6.589385948181151,
+      "gradients_filtered": 25,
+      "samples": 50,
+      "time": 13.392640113830566
+    },
+    {
+      "step": 9,
+      "avg_loss": 6.617395963668824,
+      "gradients_filtered": 25,
+      "samples": 50,
+      "time": 14.883726119995117
+    },
+    {
+      "step": 10,
+      "avg_loss": 6.650746622085572,
+      "gradients_filtered": 25,
+      "samples": 50,
+      "time": 14.584860801696777
+    }
+  ]
+}

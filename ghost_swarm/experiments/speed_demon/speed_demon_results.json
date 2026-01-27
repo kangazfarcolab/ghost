@@ -1,0 +1,168 @@
+{
+  "experiment": "speed_demon",
+  "num_workers": 10,
+  "total_steps": 20,
+  "final_loss": 2.799649238586426,
+  "history": [
+    {
+      "step": 1,
+      "avg_loss": 5.510227203369141,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 4.014887809753418,
+      "samples_per_sec": 12.453648114035557
+    },
+    {
+      "step": 2,
+      "avg_loss": 3.5499099493026733,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.7243850231170654,
+      "samples_per_sec": 18.35276569785031
+    },
+    {
+      "step": 3,
+      "avg_loss": 3.999805974960327,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.666484832763672,
+      "samples_per_sec": 18.751278606815706
+    },
+    {
+      "step": 4,
+      "avg_loss": 4.42734580039978,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.734924077987671,
+      "samples_per_sec": 18.282043147899554
+    },
+    {
+      "step": 5,
+      "avg_loss": 3.2903558254241942,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.6981990337371826,
+      "samples_per_sec": 18.530879069638804
+    },
+    {
+      "step": 6,
+      "avg_loss": 3.1697948694229128,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.877163887023926,
+      "samples_per_sec": 17.378224516685034
+    },
+    {
+      "step": 7,
+      "avg_loss": 3.1042740106582642,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.7793591022491455,
+      "samples_per_sec": 17.989758847476175
+    },
+    {
+      "step": 8,
+      "avg_loss": 4.004034304618836,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.7623450756073,
+      "samples_per_sec": 18.100562613093345
+    },
+    {
+      "step": 9,
+      "avg_loss": 3.075574588775635,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.8119170665740967,
+      "samples_per_sec": 17.78146325663778
+    },
+    {
+      "step": 10,
+      "avg_loss": 2.995838093757629,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.7752599716186523,
+      "samples_per_sec": 18.016330185758353
+    },
+    {
+      "step": 11,
+      "avg_loss": 3.1743088006973266,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.705648899078369,
+      "samples_per_sec": 18.479855245457607
+    },
+    {
+      "step": 12,
+      "avg_loss": 2.866321635246277,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.728429079055786,
+      "samples_per_sec": 18.32556337410949
+    },
+    {
+      "step": 13,
+      "avg_loss": 2.8447900772094727,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.5750489234924316,
+      "samples_per_sec": 19.41710681449387
+    },
+    {
+      "step": 14,
+      "avg_loss": 2.837758469581604,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.7302772998809814,
+      "samples_per_sec": 18.313158155100073
+    },
+    {
+      "step": 15,
+      "avg_loss": 2.875008225440979,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.559499979019165,
+      "samples_per_sec": 19.53506560260285
+    },
+    {
+      "step": 16,
+      "avg_loss": 2.734226679801941,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.6030383110046387,
+      "samples_per_sec": 19.208322746776084
+    },
+    {
+      "step": 17,
+      "avg_loss": 2.7418583154678347,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.7006688117980957,
+      "samples_per_sec": 18.513932467976396
+    },
+    {
+      "step": 18,
+      "avg_loss": 2.7602845430374146,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.574187994003296,
+      "samples_per_sec": 19.423600807896545
+    },
+    {
+      "step": 19,
+      "avg_loss": 2.84445264339447,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.706976890563965,
+      "samples_per_sec": 18.470789379211553
+    },
+    {
+      "step": 20,
+      "avg_loss": 2.799649238586426,
+      "num_workers": 10,
+      "samples": 50,
+      "time": 2.6873490810394287,
+      "samples_per_sec": 18.60569598225055
+    }
+  ]
+}

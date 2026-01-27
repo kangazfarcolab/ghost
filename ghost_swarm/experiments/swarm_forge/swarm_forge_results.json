@@ -1,0 +1,45 @@
+{
+  "experiment": "swarm_forge",
+  "num_workers": 3,
+  "final_loss": 3.7216526667277017,
+  "final_best_fitness": 0.08108108108108109,
+  "history": [
+    {
+      "step": 1,
+      "loss": 5.727447509765625,
+      "filtered": 0,
+      "generation": 0
+    },
+    {
+      "step": 2,
+      "loss": 3.4902323881785073,
+      "filtered": 0,
+      "generation": 0
+    },
+    {
+      "step": 3,
+      "loss": 3.7571188608805337,
+      "filtered": 0,
+      "generation": 0
+    },
+    {
+      "step": 4,
+      "loss": 3.178600470225016,
+      "filtered": 0,
+      "generation": 1
+    },
+    {
+      "step": 5,
+      "loss": 3.7216526667277017,
+      "filtered": 0,
+      "generation": 1
+    }
+  ],
+  "evolution_history": [
+    {
+      "generation": 1,
+      "best_fitness": 0.08108108108108109,
+      "avg_fitness": 0.06486486486486487
+    }
+  ]
+}

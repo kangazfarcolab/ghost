@@ -1,0 +1,11 @@
+*.pyc
+__pycache__/
+.DS_Store
+.venv*/
+*.zip
+
+# Training data
+*.safetensors
+*.parquet
+checkpoints/
+data/

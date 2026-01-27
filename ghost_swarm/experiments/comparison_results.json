@@ -1,0 +1,45 @@
+{
+  "Speed Demon": {
+    "experiment": "speed_demon",
+    "num_workers": 10,
+    "total_steps": 50,
+    "total_samples": 5000,
+    "total_time": 9.198200941085815,
+    "avg_samples_per_sec": 543.5845587658762,
+    "final_loss": 1.613292121887207,
+    "total_wall_time": 9.206607103347778
+  },
+  "Precision Master": {
+    "experiment": "precision_master",
+    "num_workers": 10,
+    "total_steps": 50,
+    "total_time": 19.944819927215576,
+    "total_samples": 5000,
+    "avg_samples_per_sec": 250.69165920005534,
+    "total_filtered": 250,
+    "final_loss": 1.4806872010231018,
+    "total_wall_time": 19.94784379005432
+  },
+  "Self-Improving": {
+    "experiment": "self_improving",
+    "population_size": 10,
+    "num_generations": 5,
+    "total_time": 53.581114768981934,
+    "total_samples": 25000,
+    "final_best_fitness": 0.15789473684210525,
+    "final_avg_fitness": 0.0790296052631579,
+    "total_wall_time": 53.6063711643219
+  },
+  "Swarm Forge": {
+    "experiment": "swarm_forge",
+    "num_workers": 10,
+    "total_steps": 50,
+    "total_samples": 5000,
+    "total_time": 34.25706219673157,
+    "avg_samples_per_sec": 145.95530612887887,
+    "final_generation": 2,
+    "final_loss": 0.5995840519666672,
+    "final_best_fitness": 0.07567567567567568,
+    "total_wall_time": 34.283512115478516
+  }
+}

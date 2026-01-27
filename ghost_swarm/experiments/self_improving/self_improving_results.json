@@ -1,0 +1,28 @@
+{
+  "experiment": "self_improving",
+  "population_size": 5,
+  "final_best_fitness": 0.40542763157894735,
+  "history": [
+    {
+      "generation": 1,
+      "best_fitness": 0.31414473684210525,
+      "avg_fitness": 0.18865131578947367,
+      "worst_fitness": 0.02055921052631579,
+      "time": 106.39940905570984
+    },
+    {
+      "generation": 2,
+      "best_fitness": 0.3050986842105263,
+      "avg_fitness": 0.26595394736842104,
+      "worst_fitness": 0.13898026315789475,
+      "time": 107.84757709503174
+    },
+    {
+      "generation": 3,
+      "best_fitness": 0.40542763157894735,
+      "avg_fitness": 0.3226973684210526,
+      "worst_fitness": 0.2738486842105263,
+      "time": 108.40975594520569
+    }
+  ]
+}

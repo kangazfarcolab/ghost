@@ -1,0 +1,86 @@
+{
+  "experiment": "speed_vote",
+  "final_loss": 2.8695505619049073,
+  "history": [
+    {
+      "step": 1,
+      "loss": 5.597426128387451,
+      "time": 2.8484292030334473,
+      "samples_per_sec": 10.53212063970253,
+      "filtered": 0,
+      "used_voting": false
+    },
+    {
+      "step": 2,
+      "loss": 3.9850732326507567,
+      "time": 2.728955030441284,
+      "samples_per_sec": 10.993218893441739,
+      "filtered": 0,
+      "used_voting": false
+    },
+    {
+      "step": 3,
+      "loss": 5.164910125732422,
+      "time": 2.6698598861694336,
+      "samples_per_sec": 11.236544717349318,
+      "filtered": 0,
+      "used_voting": false
+    },
+    {
+      "step": 4,
+      "loss": 4.061306428909302,
+      "time": 2.8283190727233887,
+      "samples_per_sec": 10.607006928363637,
+      "filtered": 0,
+      "used_voting": false
+    },
+    {
+      "step": 5,
+      "loss": 3.2955377101898193,
+      "time": 2.752095937728882,
+      "samples_per_sec": 10.900782777491749,
+      "filtered": 0,
+      "used_voting": false
+    },
+    {
+      "step": 6,
+      "loss": 3.0521703243255613,
+      "time": 2.799406051635742,
+      "samples_per_sec": 10.716558958094154,
+      "filtered": 0,
+      "used_voting": false
+    },
+    {
+      "step": 7,
+      "loss": 3.0375509738922117,
+      "time": 2.730776071548462,
+      "samples_per_sec": 10.98588797249449,
+      "filtered": 0,
+      "used_voting": false
+    },
+    {
+      "step": 8,
+      "loss": 3.01934494972229,
+      "time": 2.826275110244751,
+      "samples_per_sec": 10.614677916971093,
+      "filtered": 0,
+      "used_voting": false
+    },
+    {
+      "step": 9,
+      "loss": 2.9490442276000977,
+      "time": 2.702191114425659,
+      "samples_per_sec": 11.102101490840107,
+      "filtered": 0,
+      "used_voting": false
+    },
+    {
+      "step": 10,
+      "loss": 2.8695505619049073,
+      "time": 3.2037527561187744,
+      "samples_per_sec": 9.364018475740265,
+      "filtered": 3,
+      "used_voting": true
+    }
+  ]
+}
