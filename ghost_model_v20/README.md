@@ -1,78 +1,73 @@
-# Ghost v20: Complete Integrated System
+# Ghost v20: Complete Integrated AI System
 
-**All-in-one AI with 100% Math + Domains**
+**100% Math Accuracy + Auto-Generated Training Data**
 
-## Architecture (811K params total)
+## 🎯 Key Features
+
+| Component | Accuracy | Examples |
+|-----------|----------|----------|
+| **Math** (Add/Sub/Mul/Div) | **100%** | Infinite (any size) |
+| Logic LoRA | High | 1804 generated |
+| Code LoRA | Good | 300 generated |
+| Fact LoRA | High | 88 country facts |
+
+## 📊 Training Results
 
 ```
-                  GHOST V20
-                     │
-     ┌───────────────┼───────────────┐
-     │               │               │
- MATH ENGINE    LANGUAGE BASE   SHARED BRAIN
-   (82K)          (729K)         (cache)
-     │               │
-┌────┴────┐    ┌─────┼─────┐
-│         │    │     │     │
-CARRY  BORROW  LOGIC CODE  TEXT
-TABLE  TABLE   LoRA  LoRA  LoRA
-MULT   DIV
-TABLE  TABLE
+Math Tables (all 100%):
+├── Carry:  200/200 ✅
+├── Borrow: 200/200 ✅
+├── Mult:   100/100 ✅
+└── Div:    900/900 ✅ (with retry)
+
+Test Results:
+├── 999 + 1 = 1000 ✅
+├── 12345 + 67890 = 80235 ✅
+├── 1000 - 1 = 999 ✅
+├── 100 * 100 = 10000 ✅
+└── 100 / 7 = 14 R 2 ✅
 ```
 
-## Math Operations (100% Accurate)
+## 🚀 Quick Start
 
-| Operation | Table Size | Accuracy |
-|-----------|------------|----------|
-| Addition | 200 entries | 100% |
-| Subtraction | 200 entries | 100% |
-| Multiplication | 100 entries | 100% |
-| Division | 900 entries | 100% |
+```bash
+# Standard version (with save/load)
+python ghost_model_v20/ghost_v20.py
 
-### Examples
-```
-999+1 = 1000          ✅
-12345+67890 = 80235   ✅
-1000-1 = 999          ✅
-144/12 = 12           ✅
-100/7 = 14 R 2        ✅
+# Improved version (generated data + retry)
+python ghost_model_v20/ghost_v20_improved.py
 ```
 
-## Domain Workers
-
-| Worker | Purpose | Accuracy |
-|--------|---------|----------|
-| Logic LoRA | Reasoning, yes/no | 100% |
-| Code LoRA | Code completion | Working |
-| Text LoRA | Facts, geography | 100% |
-
-## Files
+## 📁 Files
 
 | File | Purpose |
 |------|---------|
-| `ghost_v20.py` | **Main integrated system** |
-| `core/complete_math.py` | Standalone math engine |
-| `core/domain_workers.py` | Standalone domain training |
-| `training/train_until_perfect.py` | Train math to 100% |
+| `ghost_v20.py` | Main with save/load |
+| `ghost_v20_improved.py` | Retry training + generators |
+| `data/generators.py` | 3000+ training examples |
+| `weights/` | Pre-trained checkpoints |
 
-## Quick Start
-
-```bash
-python ghost_model_v20/ghost_v20.py
-```
-
-## Training Time
+## 🔧 Architecture (811K params)
 
 ```
-Math tables: ~30s (until 100%)
-Domain LoRAs: ~125s
-Total: ~2.5 minutes
+GHOST V20
+├── Math Engine (82K)
+│   ├── LearnedCarryTable
+│   ├── LearnedBorrowTable
+│   ├── LearnedMultTable
+│   └── LearnedDivTable
+│
+└── Language Model (729K)
+    ├── Mamba Blocks (4 layers)
+    └── LoRA Adapters
+        ├── Logic (rank=16)
+        ├── Code (rank=16)
+        └── Fact (rank=8)
 ```
 
-## What Makes This Special
+## 🆕 Improvements
 
-1. **All Knowledge in Weights** - No hardcoded math or logic
-2. **100% Math Accuracy** - Any size numbers
-3. **Modular Domains** - Add new LoRAs without breaking others
-4. **Brain Cache** - High-confidence answers cached
-5. **Type Detection** - Auto-routes to right specialist
+1. **Retry Training** - Tables train until 100%
+2. **Data Generators** - 3000+ auto-generated examples
+3. **Save/Load** - Instant restart after first training
+4. **Type Detection** - Auto-routes to correct specialist
